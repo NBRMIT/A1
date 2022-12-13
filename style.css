@@ -1,15 +1,21 @@
-container{
-width: 98%;
-max-width:800px;
-background:;
-margin:top right bottom left;
-margin: 30px auto;
-padding:30px;
+body {
+  background-color: #DAC4F7;
 }
 
-
-
-img{
-width: 100px
+h1 {
+  color: white;
+  font-family: Arial;
+  padding: 10px;
+  text-align: center;
 }
 
+p1 {
+  background-color: #EBD2B4; 
+  border: 2px solid #EBD2B4;
+  color: white;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 13pt;
+  margin: 20px;
+  padding: 25px;
+  text-align: left;
+}
