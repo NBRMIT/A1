@@ -29,6 +29,8 @@ body {
 ul {
 	color: black;
 	font-size:18px;
+	padding-left: 100px;
+	padding-right:100px;
 }
 
 a[href] {
@@ -40,15 +42,19 @@ a:hover{
 }
 
 figcaption {
-  background-color: #FFFFEE;
   color: black;
   font-style: italic;
   padding: 2px;
   text-align: center;
 }
 
+p{
+	padding-left: 40px;
+	padding-right:40px;
+
+}
+
 h1{
-	
 	text-align: center;
 	font-size: 40px;
 	 padding: 20px;
@@ -61,14 +67,15 @@ h1{
 	font-size:18px;
 	 background-color: #FFEEEE;
 	 border-image: linear-gradient(to right, #FEC0C0, #FEDBC0, #FEFDC0,#D3FEC0, #C0FEF7, #DFC0FE) 5;
-	 border-top:5px solid;
-	 border-bottom:5px solid;
+	 border-top:10px solid;
+	 border-bottom:10px solid;
 	 border-left:5px solid;
 	 border-right:5px solid;
 	 padding: 10px;
 	 margin: 10px;
 	 border-radius: 20px;
 	 display:inline-block;
+
 }
 
 .interest{
@@ -76,14 +83,15 @@ h1{
 	font-size:18px;
 	 background-color: #FFEDDC;
 	 border-image: linear-gradient(to right, #FEC0C0, #FEDBC0, #FEFDC0,#D3FEC0, #C0FEF7, #DFC0FE) 5;
-	 border-top:5px solid;
-	 border-bottom:5px solid;
+	 border-top:10px solid;
+	 border-bottom:10px solid;
 	 border-left:5px solid;
 	 border-right:5px solid;
 	 padding: 10px;
 	 margin: 10px;
 	 border-radius: 20px;
 	 display:inline-block;
+
 }
 
 .idealJob{
@@ -91,14 +99,15 @@ h1{
 	font-size:18px;
 	 background-color: #F2FFEE;
 	 border-image: linear-gradient(to right, #FEC0C0, #FEDBC0, #FEFDC0,#D3FEC0, #C0FEF7, #DFC0FE) 5;
-	 border-top:5px solid;
-	 border-bottom:5px solid;
+	 border-top:10px solid;
+	 border-bottom:10px solid;
 	 border-left:5px solid;
 	 border-right:5px solid;
 	 padding: 10px;
 	 margin: 10px;
 	 border-radius: 20px;
 	 display:inline-block;
+
 }
 
 .profile{
@@ -106,14 +115,15 @@ h1{
 	font-size:18px;
 	 background-color: #EEFFFE;
 	 border-image: linear-gradient(to right, #FEC0C0, #FEDBC0, #FEFDC0,#D3FEC0, #C0FEF7, #DFC0FE) 5;
-	 border-top:5px solid;
-	 border-bottom:5px solid;
+	 border-top:10px solid;
+	 border-bottom:10px solid;
 	 border-left:5px solid;
 	 border-right:5px solid;
 	 padding: 10px;
 	 margin: 10px;
 	 border-radius: 20px;
 	 display:inline-block;
+
 }
 
 .projectIdea{
@@ -121,14 +131,15 @@ h1{
 	font-size:18px;
 	 background-color: #F4EEFF;
 	 border-image: linear-gradient(to right, #FEC0C0, #FEDBC0, #FEFDC0,#D3FEC0, #C0FEF7, #DFC0FE) 5;
-	 border-top:5px solid;
-	 border-bottom:5px solid;
+	 border-top:10px solid;
+	 border-bottom:10px solid;
 	 border-left:5px solid;
 	 border-right:5px solid;
 	 padding: 10px;
 	 margin: 10px;
 	 border-radius: 20px;
 	 display:inline-block;
+
 }
 
 h2 {
@@ -136,5 +147,130 @@ h2 {
 }
 
 h3{
-	color: #8646EC
+	color: #8646EC;
+	text-indent: 2em;
+}
+
+.anchor{
+	text-align: center;
+	font-size:18px;
+	  font-weight: bold;
+}
+
+.anchor1:link, .anchor1:visited {
+  background-color: #FFEEEE;
+  color: #FFA3A3;
+  border: 3px solid #FFA3A3;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.anchor1:hover, .anchor1:active {
+  background-color: #FFA3A3;
+  color: white;
+}
+
+.anchor2:link, .anchor2:visited {
+  background-color: #FFEDDC;
+  color: #FFB977;
+  border: 3px solid #FFB977;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.anchor2:hover, .anchor2:active {
+  background-color: #FFB977;
+  color: white;
+}
+
+.anchor3:link, .anchor3:visited {
+  background-color: #F2FFEE;
+  color: #89EC85;
+  border: 3px solid #89EC85;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.anchor3:hover, .anchor3:active {
+  background-color: #89EC85;
+  color: white;
+}
+.anchor4:link, .anchor4:visited {
+  background-color: #EEFFFE;
+  color: #85E1EC;
+  border: 3px solid #85E1EC;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.anchor4:hover, .anchor4:active {
+  background-color: #85E1EC;
+  color: white;
+}
+.anchor5:link, .anchor5:visited {
+  background-color: #F4EEFF;
+  color: #AC85EC;
+  border: 3px solid #AC85EC;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.anchor5:hover, .anchor5:active {
+  background-color: #AC85EC;
+  color: white;
+}
+
+
+.siteLinks{
+	text-align: center;
+	font-size:18px;
+	  font-weight: bold;
+}
+
+.gitOne:link, .gitOne:visited {
+	color: #FFB977;
+	font-size:18px;
+	  padding: 5px 5px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	 font-weight: bold;
+}
+
+.gitOne:hover, .gitOne:active {
+  background-color: #FFB977;
+  color: white;
+}
+.gitTwo:link, .gitTwo:visited {
+	color: #89EC85;
+	font-size:18px;
+	  padding: 5px 5px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	 font-weight: bold;
+}
+
+.gitTwo:hover, .gitTwo:active {
+  background-color: #89EC85;
+  color: white;
+}
+
+.title{
+	color: #A5A1DE;
+	font-size:60px;
+	  padding: 5px 5px;
+	  text-align: center;
+	  font-weight: bold;
+	  font-family: "cursive", Lucida Handwriting;
 }
