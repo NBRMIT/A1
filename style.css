@@ -1,42 +1,25 @@
 html, body {
-  margin: 40px;
-  padding: 40px;
+  margin-right: 7em ;
+  margin-left:7em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding-right: 10em ;
+  padding-left: 10em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  border:0;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  background-color: #C7EAE4;
-  line-height: 27px;
-
+  background-color: #FFFFEE;
+  line-height: 2em;
 }
 
 .photo {
 	float:left;
 	margin-right:20px;
-}
-
-h1 {
-	color: white;
-	text-align: center;
-	font-size: 40px;
-	background-color: rgb(207, 232, 220);
-	 border: 2px solid rgb(79, 185, 227);
-	 padding: 20px;
-	 margin: 20px;
-	 border-radius: 5px;
-	 display:inline-block;
-}
-
-p {
-	color: black;
-	font-size:18px;
-	 background-color: rgb(207, 232, 220);
-	 border: 2px solid rgb(79, 185, 227);
-	 padding: 10px;
-	 margin: 10px;
-	 border-radius: 20px;
-	 display:inline-block;
 }
 
 .jobAd{
@@ -49,16 +32,109 @@ ul {
 }
 
 a[href] {
-  color: #FCBCB8;
+  color: #F667FF;
 }
+
 a:hover{
-  color: darkorange;
+  color: #AE41B5;
 }
 
 figcaption {
-  background-color: #EFA7A7;
-  color: white;
+  background-color: #FFFFEE;
+  color: black;
   font-style: italic;
   padding: 2px;
   text-align: center;
+}
+
+h1{
+	
+	text-align: center;
+	font-size: 40px;
+	 padding: 20px;
+	 margin: 20px;
+}
+
+
+.PersonalInfo{
+	color: black;
+	font-size:18px;
+	 background-color: #FFEEEE;
+	 border-image: linear-gradient(to right, #FEC0C0, #FEDBC0, #FEFDC0,#D3FEC0, #C0FEF7, #DFC0FE) 5;
+	 border-top:5px solid;
+	 border-bottom:5px solid;
+	 border-left:5px solid;
+	 border-right:5px solid;
+	 padding: 10px;
+	 margin: 10px;
+	 border-radius: 20px;
+	 display:inline-block;
+}
+
+.interest{
+	color: black;
+	font-size:18px;
+	 background-color: #FFEDDC;
+	 border-image: linear-gradient(to right, #FEC0C0, #FEDBC0, #FEFDC0,#D3FEC0, #C0FEF7, #DFC0FE) 5;
+	 border-top:5px solid;
+	 border-bottom:5px solid;
+	 border-left:5px solid;
+	 border-right:5px solid;
+	 padding: 10px;
+	 margin: 10px;
+	 border-radius: 20px;
+	 display:inline-block;
+}
+
+.idealJob{
+	color: black;
+	font-size:18px;
+	 background-color: #F2FFEE;
+	 border-image: linear-gradient(to right, #FEC0C0, #FEDBC0, #FEFDC0,#D3FEC0, #C0FEF7, #DFC0FE) 5;
+	 border-top:5px solid;
+	 border-bottom:5px solid;
+	 border-left:5px solid;
+	 border-right:5px solid;
+	 padding: 10px;
+	 margin: 10px;
+	 border-radius: 20px;
+	 display:inline-block;
+}
+
+.profile{
+		color: black;
+	font-size:18px;
+	 background-color: #EEFFFE;
+	 border-image: linear-gradient(to right, #FEC0C0, #FEDBC0, #FEFDC0,#D3FEC0, #C0FEF7, #DFC0FE) 5;
+	 border-top:5px solid;
+	 border-bottom:5px solid;
+	 border-left:5px solid;
+	 border-right:5px solid;
+	 padding: 10px;
+	 margin: 10px;
+	 border-radius: 20px;
+	 display:inline-block;
+}
+
+.projectIdea{
+	color: black;
+	font-size:18px;
+	 background-color: #F4EEFF;
+	 border-image: linear-gradient(to right, #FEC0C0, #FEDBC0, #FEFDC0,#D3FEC0, #C0FEF7, #DFC0FE) 5;
+	 border-top:5px solid;
+	 border-bottom:5px solid;
+	 border-left:5px solid;
+	 border-right:5px solid;
+	 padding: 10px;
+	 margin: 10px;
+	 border-radius: 20px;
+	 display:inline-block;
+}
+
+h2 {
+	color: #9B6AEA
+}
+
+h3{
+	color: #8646EC
 }
