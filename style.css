@@ -1,21 +1,64 @@
+html, body {
+  margin: 40px;
+  padding: 40px;
+}
+
 body {
-  background-color: #DAC4F7;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  background-color: #C7EAE4;
+  line-height: 27px;
+
+}
+
+.photo {
+	float:left;
+	margin-right:20px;
 }
 
 h1 {
-  color: white;
-  font-family: Arial;
-  padding: 10px;
-  text-align: center;
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	background-color: rgb(207, 232, 220);
+	 border: 2px solid rgb(79, 185, 227);
+	 padding: 20px;
+	 margin: 20px;
+	 border-radius: 5px;
+	 display:inline-block;
 }
 
-p1 {
-  background-color: #EBD2B4; 
-  border: 2px solid #EBD2B4;
+p {
+	color: black;
+	font-size:18px;
+	 background-color: rgb(207, 232, 220);
+	 border: 2px solid rgb(79, 185, 227);
+	 padding: 10px;
+	 margin: 10px;
+	 border-radius: 20px;
+	 display:inline-block;
+}
+
+.jobAd{
+	text-align: center;
+}
+
+ul {
+	color: black;
+	font-size:18px;
+}
+
+a[href] {
+  color: #FCBCB8;
+}
+a:hover{
+  color: darkorange;
+}
+
+figcaption {
+  background-color: #EFA7A7;
   color: white;
-  font-family: Verdana, Geneva, sans-serif;
-  font-size: 13pt;
-  margin: 20px;
-  padding: 25px;
-  text-align: left;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
 }
