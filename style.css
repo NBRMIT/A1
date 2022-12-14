@@ -31,6 +31,7 @@ ul {
 	font-size:18px;
 	padding-left: 100px;
 	padding-right:100px;
+	float: right;
 }
 
 a[href] {
@@ -51,23 +52,23 @@ figcaption {
 p{
 	padding-left: 40px;
 	padding-right:40px;
-	float: right;
+		float: right;
+	width: 72.5%;
 }
 
 h1{
 	text-align: center;
 	font-size: 40px;
-	 padding: 20px;
-	 margin: 20px;
+
 	 float:left;
-	margin-right:20px;
+
 	width: 25%;
 }
 
 
 .PersonalInfo{
 	color: black;
-	font-size:18px;
+	font-size:1em;
 	 background-color: #FFEEEE;
 	 border-image: linear-gradient(to right, #FEC0C0, #FEDBC0, #FEFDC0,#D3FEC0, #C0FEF7, #DFC0FE) 5;
 	 border-top:10px solid;
@@ -83,7 +84,7 @@ h1{
 
 .interest{
 	color: black;
-	font-size:18px;
+	font-size:1em;
 	 background-color: #FFEDDC;
 	 border-image: linear-gradient(to right, #FEC0C0, #FEDBC0, #FEFDC0,#D3FEC0, #C0FEF7, #DFC0FE) 5;
 	 border-top:10px solid;
@@ -94,12 +95,14 @@ h1{
 	 margin: 10px;
 	 border-radius: 20px;
 	 display:inline-block;
+	 
+	 
 
 }
 
 .idealJob{
 	color: black;
-	font-size:18px;
+	font-size:1em;
 	 background-color: #F2FFEE;
 	 border-image: linear-gradient(to right, #FEC0C0, #FEDBC0, #FEFDC0,#D3FEC0, #C0FEF7, #DFC0FE) 5;
 	 border-top:10px solid;
@@ -115,7 +118,7 @@ h1{
 
 .profile{
 		color: black;
-	font-size:18px;
+	font-size:1em;
 	 background-color: #EEFFFE;
 	 border-image: linear-gradient(to right, #FEC0C0, #FEDBC0, #FEFDC0,#D3FEC0, #C0FEF7, #DFC0FE) 5;
 	 border-top:10px solid;
@@ -131,7 +134,7 @@ h1{
 
 .projectIdea{
 	color: black;
-	font-size:18px;
+	font-size:1em;
 	 background-color: #F4EEFF;
 	 border-image: linear-gradient(to right, #FEC0C0, #FEDBC0, #FEFDC0,#D3FEC0, #C0FEF7, #DFC0FE) 5;
 	 border-top:10px solid;
