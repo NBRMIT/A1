@@ -1,25 +1,26 @@
+
 html, body {
-  margin-right: 7em ;
-  margin-left:7em;
-  margin-top: 2em;
   margin-bottom: 2em;
-  padding-right: 10em ;
-  padding-left: 10em;
-  padding-top: 2em;
   padding-bottom: 2em;
+  margin-top: 2em;
+  padding-top: 2em;
   border:0;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  background-color: ;
-  line-height: 2em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	background-color: ;
+	line-height: 2em;
+	width: 90%;
+	max-width: 1000px;
+	margin: 30px auto;
 }
 
 .photo {
-	float:left;
+	float:right;
 	margin-right:20px;
+	border-radius: 50%;
 }
 
 .jobAd{
@@ -27,11 +28,8 @@ body {
 }
 
 ul {
-	color: black;
-	font-size:18px;
-	padding-left: 100px;
-	padding-right:100px;
-	float: right;
+	font-size:1em;
+	text-indent: 7em;
 }
 
 a[href] {
@@ -50,19 +48,14 @@ figcaption {
 }
 
 p{
-	padding-left: 40px;
-	padding-right:40px;
-		float: right;
-	width: 72.5%;
+	padding-left: 60px;
+	padding-right:60px;
 }
 
 h1{
 	text-align: center;
 	font-size: 40px;
 
-	 float:left;
-
-	width: 25%;
 }
 
 
@@ -145,22 +138,24 @@ h1{
 	 margin: 10px;
 	 border-radius: 20px;
 	 display:inline-block;
-
 }
 
 h2 {
-	color: #9B6AEA
+	color: #9B6AEA;
+	text-indent: 3em;
 }
 
 h3{
 	color: #8646EC;
-	text-indent: 2em;
+	text-align: center;
+
 }
 
 .anchor{
 	text-align: center;
 	font-size:18px;
-	  font-weight: bold;
+	font-weight: bold;
+
 }
 
 .anchor1:link, .anchor1:visited {
@@ -240,17 +235,17 @@ h3{
 .siteLinks{
 	text-align: center;
 	font-size:18px;
-	  font-weight: bold;
+	font-weight: bold;
 }
 
 .gitOne:link, .gitOne:visited {
 	color: #FFB977;
 	font-size:18px;
-	  padding: 5px 5px;
-	  text-align: center;
-	  text-decoration: none;
-	  display: inline-block;
-	 font-weight: bold;
+	padding: 5px 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-weight: bold;
 }
 
 .gitOne:hover, .gitOne:active {
@@ -260,11 +255,11 @@ h3{
 .gitTwo:link, .gitTwo:visited {
 	color: #89EC85;
 	font-size:18px;
-	  padding: 5px 5px;
-	  text-align: center;
-	  text-decoration: none;
-	  display: inline-block;
-	 font-weight: bold;
+	padding: 5px 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-weight: bold;
 }
 
 .gitTwo:hover, .gitTwo:active {
@@ -275,7 +270,8 @@ h3{
 .title{
 	color: #A5A1DE;
 	font-size:60px;
-	  padding: 5px 5px;
-	  text-align: center;
-	  font-weight: bold;
+	text-align: center;
+	font-weight: bold;
+	line-height: 1em;
 }
+
